@@ -189,7 +189,7 @@ public class NeuralNet {
     
     func randomWeight() -> Double {
         
-        return randomNd(numOfInputs: 100)
+        return randomNd(numOfInputs: 7)
     }
     
     func randomNd(numOfInputs: Int) -> Double { // normal distribution
